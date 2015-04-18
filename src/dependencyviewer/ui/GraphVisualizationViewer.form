@@ -1,0 +1,244 @@
+<?xml version="1.1" encoding="UTF-8" ?>
+
+<Form version="1.5" maxVersion="1.7" type="org.netbeans.modules.form.forminfo.JPanelFormInfo">
+  <NonVisualComponents>
+    <Container class="javax.swing.JPopupMenu" name="graphPopupMenu">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="graphPopupMenu" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JMenuItem" name="showDetailsMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="showDetailsMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="showDetailsMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showDetailsMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="pickMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="pickMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="pickMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="pickMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <Component class="javax.swing.JPopupMenu$Separator" name="pickSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="pickSeparator" noResource="true"/>
+          </Properties>
+        </Component>
+        <MenuItem class="javax.swing.JMenuItem" name="showOutboundMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="showOutboundMenuItem.text"/>
+            <Property name="actionCommand" type="java.lang.String" resourceKey="showOutboundMenuItem.actionCommand"/>
+            <Property name="name" type="java.lang.String" value="showOutboundMenuItem" noResource="true"/>
+          </Properties>
+          <AccessibilityProperties>
+            <Property name="AccessibleContext.accessibleName" type="java.lang.String" resourceKey="showOutboundMenuItem.AccessibleContext.accessibleName"/>
+          </AccessibilityProperties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showOutboundMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="hideOutboundMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="hideOutboundMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="hideOutboundMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hideOutboundMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <Component class="javax.swing.JPopupMenu$Separator" name="outboundSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="outboundSeparator" noResource="true"/>
+          </Properties>
+        </Component>
+        <MenuItem class="javax.swing.JMenuItem" name="showInboundMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="showInboundMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="showInboundMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="showInboundMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="hideInoundMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="hideInoundMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="hideInoundMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="hideInoundMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <Component class="javax.swing.JPopupMenu$Separator" name="inboundSeparator">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="inboundSeparator" noResource="true"/>
+          </Properties>
+        </Component>
+        <MenuItem class="javax.swing.JMenuItem" name="addToFilterMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="addToFilterMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="addToFilterMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addToFilterMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+    <Component class="dependencyviewer.ui.FilterListModel" name="filterListModel">
+    </Component>
+    <Container class="javax.swing.JPopupMenu" name="filterListPopupMenu">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="filterListPopupMenu" noResource="true"/>
+      </Properties>
+
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="true"/>
+      </Layout>
+      <SubComponents>
+        <MenuItem class="javax.swing.JMenuItem" name="removeElementsMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="removeElementsMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="removeElementsMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="removeElementsMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+        <MenuItem class="javax.swing.JMenuItem" name="addFilterMenuItem">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="addFilterMenuItem.text"/>
+            <Property name="name" type="java.lang.String" value="addFilterMenuItem" noResource="true"/>
+          </Properties>
+          <Events>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="addFilterMenuItemActionPerformed"/>
+          </Events>
+        </MenuItem>
+      </SubComponents>
+    </Container>
+  </NonVisualComponents>
+  <Properties>
+    <Property name="name" type="java.lang.String" value="Form" noResource="true"/>
+  </Properties>
+  <AuxValues>
+    <AuxValue name="FormSettings_autoResourcing" type="java.lang.Integer" value="2"/>
+    <AuxValue name="FormSettings_autoSetComponentName" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateFQN" type="java.lang.Boolean" value="true"/>
+    <AuxValue name="FormSettings_generateMnemonicsCode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_i18nAutoMode" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_layoutCodeTarget" type="java.lang.Integer" value="1"/>
+    <AuxValue name="FormSettings_listenerGenerationStyle" type="java.lang.Integer" value="0"/>
+    <AuxValue name="FormSettings_variablesLocal" type="java.lang.Boolean" value="false"/>
+    <AuxValue name="FormSettings_variablesModifier" type="java.lang.Integer" value="2"/>
+  </AuxValues>
+
+  <Layout>
+    <DimensionLayout dim="0">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Group type="102" alignment="1" attributes="0">
+              <Component id="viewerPanel" max="32767" attributes="0"/>
+              <EmptySpace max="-2" attributes="0"/>
+              <Component id="filterPanel" min="-2" max="-2" attributes="1"/>
+          </Group>
+      </Group>
+    </DimensionLayout>
+    <DimensionLayout dim="1">
+      <Group type="103" groupAlignment="0" attributes="0">
+          <Component id="viewerPanel" alignment="0" max="32767" attributes="0"/>
+          <Component id="filterPanel" alignment="0" max="32767" attributes="2"/>
+      </Group>
+    </DimensionLayout>
+  </Layout>
+  <SubComponents>
+    <Container class="javax.swing.JPanel" name="filterPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="filterPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Group type="103" groupAlignment="0" attributes="0">
+                      <Component id="filterScrollPane" alignment="0" pref="117" max="32767" attributes="0"/>
+                      <Component id="filterLabel" alignment="0" min="-2" max="-2" attributes="0"/>
+                  </Group>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <Group type="102" attributes="0">
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="filterLabel" min="-2" max="-2" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+                  <Component id="filterScrollPane" pref="221" max="32767" attributes="0"/>
+                  <EmptySpace max="-2" attributes="0"/>
+              </Group>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+      <SubComponents>
+        <Container class="javax.swing.JScrollPane" name="filterScrollPane">
+          <Properties>
+            <Property name="name" type="java.lang.String" value="filterScrollPane" noResource="true"/>
+          </Properties>
+          <AuxValues>
+            <AuxValue name="autoScrollPane" type="java.lang.Boolean" value="true"/>
+          </AuxValues>
+
+          <Layout class="org.netbeans.modules.form.compat2.layouts.support.JScrollPaneSupportLayout"/>
+          <SubComponents>
+            <Component class="javax.swing.JList" name="filterList">
+              <Properties>
+                <Property name="model" type="javax.swing.ListModel" editor="org.netbeans.modules.form.RADConnectionPropertyEditor">
+                  <Connection component="filterListModel" type="bean"/>
+                </Property>
+                <Property name="name" type="java.lang.String" value="filterList" noResource="true"/>
+              </Properties>
+              <BindingProperties>
+                <BindingProperty name="componentPopupMenu" source="filterListPopupMenu" target="filterList" targetPath="componentPopupMenu" updateStrategy="0" immediately="false"/>
+              </BindingProperties>
+            </Component>
+          </SubComponents>
+        </Container>
+        <Component class="javax.swing.JLabel" name="filterLabel">
+          <Properties>
+            <Property name="text" type="java.lang.String" resourceKey="filterLabel.text"/>
+            <Property name="name" type="java.lang.String" value="filterLabel" noResource="true"/>
+          </Properties>
+        </Component>
+      </SubComponents>
+    </Container>
+    <Container class="javax.swing.JPanel" name="viewerPanel">
+      <Properties>
+        <Property name="name" type="java.lang.String" value="viewerPanel" noResource="true"/>
+      </Properties>
+
+      <Layout>
+        <DimensionLayout dim="0">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="281" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+        <DimensionLayout dim="1">
+          <Group type="103" groupAlignment="0" attributes="0">
+              <EmptySpace min="0" pref="266" max="32767" attributes="0"/>
+          </Group>
+        </DimensionLayout>
+      </Layout>
+    </Container>
+  </SubComponents>
+</Form>
