@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<classpath>
+	<classpathentry kind="src" path="src"/>
+	<classpathentry kind="lib" path="lib/absolutelayout/AbsoluteLayout.jar"/>
+	<classpathentry kind="lib" path="lib/beans-binding/beansbinding-1.2.1.jar"/>
+	<classpathentry kind="lib" path="lib/collections-generic-4.01.jar"/>
+	<classpathentry kind="lib" path="lib/jung-algorithms-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jung-api-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jung-graph-impl-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/jung-visualization-2.0.1.jar"/>
+	<classpathentry kind="lib" path="lib/log4j-1.2.15.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-api-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/slf4j-log4j12-1.6.1.jar"/>
+	<classpathentry kind="lib" path="lib/swing-app-framework/appframework-1.0.3.jar"/>
+	<classpathentry kind="lib" path="lib/swing-app-framework/swing-worker-1.1.jar"/>
+	<classpathentry kind="con" path="org.eclipse.jdt.launching.JRE_CONTAINER"/>
+	<classpathentry kind="output" path="build/classes"/>
+</classpath>
